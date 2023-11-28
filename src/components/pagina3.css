@@ -1,0 +1,102 @@
+.titulo{
+    font-size: 50px;
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQBh9bdu2I1VMGpfVaZZpEfWmL0f7z1m3Ffg&usqp=CAU);
+}
+.fondo{
+    background-image: url(https://fotografias.lasexta.com/clipping/cmsimages02/2020/08/05/2B1DCF6A-6298-4C81-9232-B01D5D92E2A1/default.jpg?crop=1300,731,x0,y4&width=1900&height=1069&optimize=low);
+}
+
+.titulo-b2{
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQBh9bdu2I1VMGpfVaZZpEfWmL0f7z1m3Ffg&usqp=CAU);
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.cuadro1{
+    background-color: brown;
+    height: 300px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    position: relative;
+    left: 250px;
+    top: 30px;
+    grid-gap: 5px;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+}
+.cuadro2{
+    background-color: brown;
+    height: 300px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    position: relative;
+    left: 250px;
+    top: 60px;
+    grid-gap: 5px;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+}
+.cuadro3{
+    background-color: brown;
+    height: 300px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    left: 250px;
+    top: 100px;
+    grid-gap: 3px;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+}
+#cuadroN{
+    background-color: skyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: black;
+    border: 2px;
+    border-radius: 10px;
+    
+}
+.inactive{
+    display: none;
+}
+.muestra{
+    visibility: hidden;
+    position: relative;
+    top:-40px;
+    right: -65px;
+}
+.equipo{
+    visibility: hidden;
+    position: relative;
+    top:-40px;
+    right: -65px;
+}
+.partido{
+    visibility: hidden;
+    position: relative;
+    top:-40px;
+    right: -65px;
+}
+p:hover .muestra{
+    visibility: visible;
+}
+p:hover .equipo {
+    visibility: visible;
+}
+p:hover .partido {
+    visibility: visible;
+}
+p{
+    margin: 0;
+    padding: 0;
+}

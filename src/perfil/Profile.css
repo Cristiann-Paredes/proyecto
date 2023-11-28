@@ -1,0 +1,35 @@
+.profiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  background-color: #000000; /* Fondo blanco */
+}
+
+.profile-container {
+  width: 300px;
+  border: 1px solid rgb(108, 110, 110);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(184, 179, 179, 0.1);
+  background-color: #fffefeec; /* Fondo blanco */
+  color: rgb(5, 5, 5); /* Color del texto */
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-details p {
+  margin: 5px 0;
+}
